@@ -1,0 +1,206 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Navbar section started */
+
+#navbarsection{
+    padding: 10px;
+    background-color: #328873;
+   
+}
+
+#navbarsectionMaindiv{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+#Divh1{
+   font-size: 22px;
+}
+#colourfulh1{
+    color: #00D916;
+}
+
+#colourfulh1:hover{
+    color:#50f160 ;
+}
+
+
+#Divh2>ul{
+    display: flex;
+    font-size: 18px;
+    gap: 40px;
+    padding-top: 10px;
+    
+   
+}
+
+
+/* Navbar section ended */
+
+/* banner section started  */
+
+
+#BannerSection>img{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* banner section ended */
+
+
+/* About Us Section started */
+
+#AboutUsSecton{
+  
+    background-color: #E9E9E9;
+
+}
+#AboutUsSectonMainDiv{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 30%;
+    padding:5%;
+    align-items: center;
+}
+
+#AboutUsSectontextDiv{
+    text-align: justify;
+    font-size: 20px;
+
+}
+button{
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    background-color: #00D916;
+    padding: 10px 30px;
+}
+
+button:hover{
+    background-color: #09fa21;
+}
+
+#AboutUsSectonimgDiv>img{
+    height: 70vh;
+   
+}
+
+/* About Us Section ended */
+
+
+/* Card section started */
+#CardSection{
+    padding: 5%;
+}
+
+#CardSectionMainDiv{
+    display: flex;
+    gap:80px;
+    align-items: center;
+   
+}
+.Card{
+    background-color: #00D916;
+    height: 80vh;
+    box-sizing: border-box;
+    box-shadow: 2px 5px #d7c0c0;
+   
+}
+
+.Card:hover{
+    background-color: #1bf831;
+}
+
+
+.Cardimg>img{
+    height: 50vh;
+    width: 25vw;
+}
+.CardTExt{
+    text-align: justify;
+    padding: 7%;
+}
+
+.colorcode{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.colorcode:hover{
+    background-color: #380303
+}
+
+
+
+.cardbutton{
+display: flex;
+justify-content: center;
+border-radius: 30px;
+padding: 15px;
+}
+.cardbutton>button{
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+}
+
+/* Card section ended */
+
+
+/* Contact section Started */
+
+#ContactSection{
+    background-color: #D9D9D9;
+    height: 80vh;
+}
+
+
+#ContactSectionMainDiv{
+    display: flex;
+    justify-content: center;
+    padding:5%;
+    gap: 30%;
+
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  gap: 10px;
+
+    
+}
+input{
+    padding:20px 60px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius:5px;
+}
+#ContactSectiontextDiv{
+    padding: 60px 20px;
+}
+
+#ContactSectionimgDiv>img{
+    height: 60vh;
+}
+
+/* Contact section Ended */
+
+
+/* Copyright Section started */
+
+#CopyrightSection{
+    background-color: #000000;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    padding: 2%;
+}
+
+
+/* Copyright Section Ended */
