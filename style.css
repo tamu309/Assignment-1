@@ -16,6 +16,7 @@ body{
     display: flex;
     justify-content: space-between;
     color: white;
+    
 }
 #Divh1{
    font-size: 22px;
@@ -31,7 +32,7 @@ body{
 
 #Divh2>ul{
     display: flex;
-    font-size: 18px;
+    font-size: 20px;
     gap: 40px;
     padding-top: 10px;
     
@@ -70,7 +71,7 @@ body{
 
 #AboutUsSectontextDiv{
     text-align: justify;
-    font-size: 20px;
+    font-size: 24px;
 
 }
 button{
@@ -79,6 +80,7 @@ button{
     border-radius: 10px;
     background-color: #00D916;
     padding: 10px 30px;
+    font-size: 20px;
 }
 
 button:hover{
@@ -100,13 +102,13 @@ button:hover{
 
 #CardSectionMainDiv{
     display: flex;
-    gap:95px;
+    gap:50px;
     align-items: center;
    
 }
 .Card{
     background-color: #00D916;
-    height: 80vh;
+    height: 70vh;
     box-sizing: border-box;
     box-shadow:7px 5px 7px 7px #d7c0c0;
    
@@ -118,12 +120,14 @@ button:hover{
 
 
 .Cardimg>img{
-    height: 50vh;
-    width: 25vw;
+    height: 40vh;
+    width: 28vw;
 }
 .CardTExt{
     text-align: justify;
-    padding: 7%;
+    padding: 5%;
+    font-size: 20px;
+
 }
 
 .colorcode{
@@ -145,7 +149,7 @@ padding: 15px;
 }
 .cardbutton>button{
     padding: 15px 30px;
-    font-size: 18px;
+    font-size: 28px;
     color: white;
 }
 
@@ -180,6 +184,7 @@ input{
     background-color: #FFFFFF;
     border: none;
     border-radius:5px;
+    font-size: 20px;
 }
 #ContactSectiontextDiv{
     padding: 60px 20px;
