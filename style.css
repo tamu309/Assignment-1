@@ -7,7 +7,7 @@ body{
 /* Navbar section started */
 
 #navbarsection{
-    padding: 10px;
+    padding: 15px 30px;
     background-color: #328873;
    
 }
@@ -100,7 +100,7 @@ button:hover{
 
 #CardSectionMainDiv{
     display: flex;
-    gap:80px;
+    gap:95px;
     align-items: center;
    
 }
@@ -108,7 +108,7 @@ button:hover{
     background-color: #00D916;
     height: 80vh;
     box-sizing: border-box;
-    box-shadow: 2px 5px #d7c0c0;
+    box-shadow:7px 5px 7px 7px #d7c0c0;
    
 }
 
