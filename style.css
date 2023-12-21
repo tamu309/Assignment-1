@@ -48,6 +48,7 @@ body{
 #BannerSection>img{
     height: 100%;
     width: 100%;
+   
 }
 
 
@@ -59,7 +60,7 @@ body{
 #AboutUsSecton{
   
     background-color: #E9E9E9;
-
+  
 }
 #AboutUsSectonMainDiv{
     display: flex;
@@ -98,6 +99,7 @@ button:hover{
 /* Card section started */
 #CardSection{
     padding: 5%;
+  
 }
 
 #CardSectionMainDiv{
@@ -108,7 +110,7 @@ button:hover{
 }
 .Card{
     background-color: #00D916;
-    height: 70vh;
+    height: 73vh;
     box-sizing: border-box;
     box-shadow:7px 5px 7px 7px #d7c0c0;
    
@@ -161,6 +163,7 @@ padding: 15px;
 #ContactSection{
     background-color: #D9D9D9;
     height: 80vh;
+   
 }
 
 
@@ -194,6 +197,7 @@ input{
     height: 60vh;
 }
 
+
 /* Contact section Ended */
 
 
@@ -205,7 +209,71 @@ input{
     font-size: 20px;
     text-align: center;
     padding: 2%;
+    
 }
 
 
 /* Copyright Section Ended */
+
+
+
+/* Responsive code */
+@media screen and (max-width:576px){
+    #navbarsectionMaindiv{
+     flex-direction: column;
+     align-items: center;
+    }
+    #navbarsection{
+    padding-left: 5px;
+    }
+    #BannerSection>img{
+        height: 100%;
+        width: 100%;
+       
+    }
+    #AboutUsSectonMainDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        gap: 30%;
+        padding:5%;
+        align-items: center;
+    }
+    #AboutUsSectonimgDiv>img{
+        height: 50vh;
+       
+    }
+    
+    #CardSectionMainDiv{
+        flex-direction: column;
+       
+    }
+
+    .Cardimg>img{
+        height: 40vh;
+        width: 100vw;
+    }
+    #ContactSection{
+        height: 680px;
+    }
+    #ContactSectionMainDiv{
+       flex-direction: column-reverse;
+    
+    }
+    #ContactSectionimgDiv>img{
+        height: 35vh;
+    }
+
+    form{
+        flex-direction: column;
+        width: 300px;  
+       
+      } 
+
+      #ContactSectiontextDiv{
+        padding: 5px 10px;
+    }
+    
+
+    
+}
